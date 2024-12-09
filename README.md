@@ -10,6 +10,7 @@ Tabular data is a rich source of information, and automated information extracti
 
 Each instance in Open-ViTabQA consists of:
 
+QAs data
 | Field        | Description                                   |
 |--------------|-----------------------------------------------|
 | `qa_id`      | Unique identifier for the qa pair             |
@@ -17,6 +18,17 @@ Each instance in Open-ViTabQA consists of:
 | `question`   | Question                                      |
 | `answer`     | Answer                                        |
 | `hints`      | List of question type                         |
+
+Tables data
+| Field        | Description                                   |
+|--------------|-----------------------------------------------|
+| `table_id`   | Unique identifier for the table               |
+| `table_html` | Table data in HTML format                     |
+| `table_title`| Title of table                                |
+| `table_domain`| Domain of table                              |
+| `table_type` | List of types (normal|contain_merged_header|contain_merged_value)                              |
+| `table_dict` | Flattened table (List of table rows) |
+
 
 
 ## Citation
