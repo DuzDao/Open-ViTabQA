@@ -37,4 +37,4 @@ To be added after paper acceptance
 
 ## Contact
 If you have any further questions, please contact us at the following email:
-21521972@gm.uit.edu.vn
+21520357@gm.uit.edu.vn
